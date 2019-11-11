@@ -12,7 +12,7 @@ composer require trasigor/Memcached
 ```php
 use Trasigor\Memcached;
 
-$mc = new new Memcached\Memcached();
+$mc = new Memcached\Memcached();
 $mc->set('key', 'val');
 $val = $mc->get('key');
 $mc->delete('key');
